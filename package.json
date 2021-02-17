@@ -1,0 +1,16 @@
+{
+  "name": "blog-app",
+  "version": "0.0.1",
+  "description": "blogging app v.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Hrithik Naha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
