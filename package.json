@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "blogging app v.1",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -11,6 +10,8 @@
   "author": "Hrithik Naha",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17"
   }
 }
