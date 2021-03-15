@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js",
+    "test": "jest"
   },
   "author": "Hrithik Naha",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "mongoose": "^5.11.17"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
   }
 }

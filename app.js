@@ -11,7 +11,6 @@ app.use(methodOverride("_method"));
 
 //Routes Calling
 app.use("/api", require("./routes/index"));
+app.use("/api", require("./routes/blog"));
 
-//Server Listening
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server is listening on port ${PORT}`));
+module.exports = app;

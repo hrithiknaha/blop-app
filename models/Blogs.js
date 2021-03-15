@@ -10,6 +10,14 @@ const blogSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    author: {
+      type: String,
+      required: true,
+    },
+    interactions: {
+      type: Number,
+      required: true,
+    },
   },
   {
     timestamps: true,
