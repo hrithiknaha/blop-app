@@ -1,10 +1,9 @@
 //consting packages
 const express = require("express");
 const methodOverride = require("method-override");
+require("./configs/db.js");
 
 const app = express();
-
-require("./configs/db.js");
 
 app.use(express.json());
 app.use(methodOverride("_method"));
